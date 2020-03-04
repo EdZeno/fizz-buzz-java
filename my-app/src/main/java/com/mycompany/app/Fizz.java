@@ -7,9 +7,14 @@ package com.mycompany.app;
 public class Fizz
 {
     public String buzz(int argument) {
-      return "Fizz";
+      if (argument == 5) {
+        return "Fizz";
+      } else {
+        return "Wrong";
+      }
+
     }
-    
+
     public static void main( String[] args )
     {
       Fizz fizz = new Fizz();

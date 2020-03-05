@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.FizzTest" time="0.038" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.FizzTest" time="0.029" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-13.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/eduardkulcsickij-gut/MAKERS/fizz_buzz_java/my-app/target/surefire/surefirebooter1798579912026455641.jar /Users/eduardkulcsickij-gut/MAKERS/fizz_buzz_java/my-app/target/surefire 2020-03-05T11-02-15_683-jvmRun1 surefire13622266097590364484tmp surefire_02152292646659256582tmp"/>
+    <property name="sun.java.command" value="/Users/eduardkulcsickij-gut/MAKERS/fizz_buzz_java/my-app/target/surefire/surefirebooter14910985340130075846.jar /Users/eduardkulcsickij-gut/MAKERS/fizz_buzz_java/my-app/target/surefire 2020-03-05T11-05-05_195-jvmRun1 surefire17983601000021554155tmp surefire_0782566456315700673tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/eduardkulcsickij-gut/MAKERS/fizz_buzz_java/my-app/target/test-classes:/Users/eduardkulcsickij-gut/MAKERS/fizz_buzz_java/my-app/target/classes:/Users/eduardkulcsickij-gut/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/eduardkulcsickij-gut/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/eduardkulcsickij-gut/MAKERS/fizz_buzz_java/my-app/target/surefire/surefirebooter1798579912026455641.jar"/>
+    <property name="surefire.real.class.path" value="/Users/eduardkulcsickij-gut/MAKERS/fizz_buzz_java/my-app/target/surefire/surefirebooter14910985340130075846.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="13.0.2+8"/>
@@ -57,4 +57,5 @@
   <testcase name="shouldAssertFizzTen" classname="com.mycompany.app.FizzTest" time="0"/>
   <testcase name="shouldAssertBuzzThree" classname="com.mycompany.app.FizzTest" time="0"/>
   <testcase name="shouldAssertWrong" classname="com.mycompany.app.FizzTest" time="0"/>
+  <testcase name="shouldAssertBuzzSiz" classname="com.mycompany.app.FizzTest" time="0"/>
 </testsuite>

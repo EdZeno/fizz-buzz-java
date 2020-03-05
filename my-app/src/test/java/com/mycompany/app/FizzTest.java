@@ -29,6 +29,12 @@ public class FizzTest
     }
 
     @Test
+    public void shouldAssertBuzzSiz()
+    {
+        assertEquals( "Buzz", fizz.buzz(6));
+    }
+
+    @Test
     public void shouldAssertWrong()
     {
         assertEquals( "Wrong", fizz.buzz(1));

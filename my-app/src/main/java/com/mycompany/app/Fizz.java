@@ -9,6 +9,8 @@ public class Fizz
     public String buzz(int argument) {
       if (argument % 5 == 0) {
         return "Fizz";
+      } else if (argument % 3 == 0) {
+        return "Buzz";
       } else {
         return "Wrong";
       }

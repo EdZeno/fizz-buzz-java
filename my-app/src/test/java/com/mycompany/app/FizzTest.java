@@ -11,9 +11,15 @@ public class FizzTest
     private final Fizz fizz = new Fizz();
 
     @Test
-    public void shouldAssertFizz()
+    public void shouldAssertFizzFive()
     {
         assertEquals( "Fizz", fizz.buzz(5));
+    }
+
+    @Test
+    public void shouldAssertFizzTen()
+    {
+        assertEquals( "Fizz", fizz.buzz(10));
     }
 
     @Test

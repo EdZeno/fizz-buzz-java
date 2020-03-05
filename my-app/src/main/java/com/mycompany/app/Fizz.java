@@ -7,7 +7,7 @@ package com.mycompany.app;
 public class Fizz
 {
     public String buzz(int argument) {
-      if (argument == 5) {
+      if (argument % 5 == 0) {
         return "Fizz";
       } else {
         return "Wrong";

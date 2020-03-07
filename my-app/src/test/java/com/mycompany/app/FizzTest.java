@@ -39,4 +39,10 @@ public class FizzTest
     {
         assertEquals( "Wrong", fizz.buzz(1));
     }
+
+    @Test
+    public void shouldAssertFizzBuzz()
+    {
+        assertEquals( "FizzBuzz", fizz.buzz(15));
+    }
 }

@@ -45,4 +45,10 @@ public class FizzTest
     {
         assertEquals( "FizzBuzz", fizz.buzz(15));
     }
+
+    @Test
+    public void shouldAssertThirty()
+    {
+        assertEquals( "FizzBuzz", fizz.buzz(30));
+    }
 }

@@ -5,7 +5,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-
 public class FizzTest
 {
     private final Fizz fizz = new Fizz();

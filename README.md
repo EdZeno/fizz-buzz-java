@@ -2,4 +2,4 @@
 
 It is the basic Fizz Buzz kata done in JAVA.
 
-Testing framework JUnit5 
+It is a Maven project with Junit tests.

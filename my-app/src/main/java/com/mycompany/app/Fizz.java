@@ -1,17 +1,13 @@
 package com.mycompany.app;
 
-/**
- * Hello world!
- *
- */
 public class Fizz
 {
-    public String buzz(int argument) {
-      if (argument % 5 == 0 && argument % 3 == 0) {
+    public String buzz(int number) {
+      if (number % 5 == 0 && number % 3 == 0) {
         return "FizzBuzz";
-      } else if (argument % 5 == 0) {
+      } else if (number % 5 == 0) {
         return "Fizz";
-      } else if (argument % 3 == 0) {
+      } else if (number % 3 == 0) {
         return "Buzz";
       } else {
         return "Wrong";
